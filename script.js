@@ -14,6 +14,7 @@ const PORTFOLIO = {
   phoneHref: "tel:+254727678245",
   whatsapp: "254727678245",
   googleDriveUrl: "https://l1nk.dev/2cm155j",
+  photoUrl: "https://drive.google.com/thumbnail?id=1taTD8bzHQFG-btpbhmKE9ZHYyvevWRlg&sz=w900",
   driveText: "The full Google Drive folder includes Martha's work samples, CV, certificate, and related professional documents.",
   stats: ["8", "Remote", "Flexible"],
   skills: [
@@ -74,7 +75,6 @@ function renderPortfolio() {
   document.title = `${PORTFOLIO.name} | Portfolio`;
   setText("brandInitial", firstInitial(PORTFOLIO.name));
   setText("brandName", PORTFOLIO.name);
-  setText("avatar", firstInitial(PORTFOLIO.name));
   setText("profileName", PORTFOLIO.name);
   setText("footerName", PORTFOLIO.name);
   setText("profileRole", PORTFOLIO.role);
@@ -90,6 +90,15 @@ function renderPortfolio() {
   setText("statOne", PORTFOLIO.stats[0]);
   setText("statTwo", PORTFOLIO.stats[1]);
   setText("statThree", PORTFOLIO.stats[2]);
+
+  const avatar = document.getElementById("avatar");
+  if (PORTFOLIO.photoUrl) {
+    avatar.classList.add("has-photo");
+    avatar.innerHTML = `<img src="${PORTFOLIO.photoUrl}" alt="${PORTFOLIO.name} professional photo">`;
+  } else {
+    avatar.classList.remove("has-photo");
+    avatar.textContent = firstInitial(PORTFOLIO.name);
+  }
 
   const emailLink = document.getElementById("emailLink");
   emailLink.textContent = PORTFOLIO.email;
