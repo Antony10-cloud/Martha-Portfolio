@@ -1,16 +1,17 @@
-# Martha Portfolio
+# Portfolio Website
 
-A custom one-page personal portfolio built by AM Digital Studio.
-
-## Package scope
+This is Martha Nyanchama Nyangena's Virtual Assistant portfolio site.
 
 - 1 polished mobile-friendly page
-- Project gallery section
-- Contact details and social links
-- Google Drive button for CV, certificates, or extra files
-- Ready for one revision after real content is added
+- service areas section
+- contact details and social links
+- document request button for CV, certificates, or relevant professional records
+- ready for one revision after real content is added
 
-The current draft uses Martha as the working name and the WhatsApp number visible in the provided chat screenshot. Confirm the final phone number before publishing.
+Current public contact details:
+
+- Email: `marthanyanchama60@gmail.com`
+- Phone/WhatsApp: `+254 727 678245`
 
 ## Edit content
 
@@ -27,19 +28,18 @@ Open `script.js` and update the `PORTFOLIO` object:
 - `googleDriveUrl`
 - `skills`
 - `socials`
-- `projects`
+- `projects` for the service cards
 
-For real images, upload files into this repo, then set a project image like:
+## Open locally
 
-```js
-image: "url('my-photo.jpg')"
-```
+Open `index.html` in a browser.
 
-## Deploy on Netlify
+## Deploy
 
-Recommended setup:
+Recommended: Netlify.
 
+Git-based Netlify deploy:
+
+- Base directory: leave empty
 - Build command: leave empty
 - Publish directory: `.`
-
-Netlify can also read `netlify.toml`, which is already configured.
