@@ -1,15 +1,15 @@
 const PORTFOLIO = {
-  name: "Martha",
-  title: "A clean portfolio for my work, story, and next opportunity.",
-  role: "Personal Brand / Career Profile",
-  eyebrow: "Personal Portfolio",
-  intro: "Explore selected work, documents, skills, and the easiest ways to get in touch.",
+  name: "Martha Nyanchama Nyangena",
+  title: "Virtual Assistant helping businesses stay organized and efficient.",
+  role: "Virtual Assistant",
+  eyebrow: "Virtual Assistant Portfolio",
+  intro: "Administrative support, scheduling, research, document preparation, and customer support for busy entrepreneurs and businesses.",
   availability: "Open to selected opportunities",
-  shortPitch: "A simple, professional space where people can understand my work, view my supporting files, and contact me quickly.",
-  aboutTitle: "A short introduction.",
-  aboutText: "I am building a professional profile that presents my background, strengths, work samples, and the opportunities I am ready for. This section will be updated with a personal bio once the final details are provided.",
-  contactText: "For opportunities, collaborations, or enquiries, use the links below.",
-  email: "add-email@example.com",
+  shortPitch: "I help clients save time, streamline their workflows, and focus on what matters most: growing their business.",
+  aboutTitle: "Reliable virtual support for growing businesses.",
+  aboutText: "I am Martha, a dedicated Virtual Assistant with strong organizational, communication, and administrative support skills. I help entrepreneurs and businesses stay organized by managing emails, calendars, scheduling, data entry, travel planning, internet research, document preparation, and customer support. I am detail-oriented, tech-savvy, and committed to delivering accurate, efficient, and confidential support.",
+  contactText: "For administrative support, customer support, scheduling, research, or document preparation enquiries, use the links below.",
+  email: "marthanyanchama60@gmail.com",
   phoneDisplay: "+254 727 678245",
   phoneHref: "tel:+254727678245",
   whatsapp: "254727678245",
@@ -17,12 +17,14 @@ const PORTFOLIO = {
   driveText: "Certificates, CV, detailed project photos, and other supporting files can be shared through one Google Drive folder.",
   stats: ["3", "6", "24h"],
   skills: [
-    "Communication",
-    "Organisation",
-    "Project Work",
-    "Team Collaboration",
-    "Problem Solving",
-    "Personal Branding"
+    "Email Management",
+    "Calendar Scheduling",
+    "Data Entry",
+    "Travel Planning",
+    "Internet Research",
+    "Document Preparation",
+    "Customer Support",
+    "Confidential Support"
   ],
   socials: [
     { label: "LinkedIn", url: "#" },
@@ -31,18 +33,18 @@ const PORTFOLIO = {
   ],
   projects: [
     {
-      title: "Featured Work",
-      description: "Use this card for the strongest project, certificate, design, event, service, or achievement.",
+      title: "Administrative Support",
+      description: "Email management, calendar coordination, scheduling, document preparation, and day-to-day business organization.",
       image: "linear-gradient(135deg, #175c4a, #f0b35a)"
     },
     {
-      title: "Gallery Highlight",
-      description: "Add a photo, screenshot, document preview, or sample that supports the professional profile.",
+      title: "Research & Data Entry",
+      description: "Internet research, data entry, information organization, and accurate task handling for busy professionals.",
       image: "linear-gradient(135deg, #1f2937, #8fb9a8)"
     },
     {
-      title: "Career Moment",
-      description: "Highlight an experience, result, testimonial, role, or milestone that builds credibility.",
+      title: "Customer Support",
+      description: "Professional communication, customer follow-up, and reliable support that helps businesses serve clients better.",
       image: "linear-gradient(135deg, #7c3f1d, #f2c078)"
     }
   ]
