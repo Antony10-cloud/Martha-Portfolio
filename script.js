@@ -14,7 +14,7 @@ const PORTFOLIO = {
   phoneHref: "tel:+254727678245",
   whatsapp: "254727678245",
   googleDriveUrl: "https://l1nk.dev/2cm155j",
-  driveText: "Martha's work samples, CV, certificates, and professional documents are available in her shared Google Drive folder.",
+  driveText: "The full Google Drive folder includes Martha's work samples, CV, certificate, and related professional documents.",
   stats: ["8", "Remote", "Flexible"],
   skills: [
     "Email Management",
@@ -31,19 +31,32 @@ const PORTFOLIO = {
   ],
   projects: [
     {
-      title: "Administrative Support",
-      description: "Keeping inboxes, calendars, schedules, documents, and daily admin work organized so every task has a clear place.",
-      image: "linear-gradient(135deg, #175c4a, #f0b35a)"
+      title: "Research & Data Organization",
+      type: "Google Sheets",
+      description: "A structured research spreadsheet on parks and cities in California, showing internet research, data entry, and clean information organization.",
+      image: "linear-gradient(135deg, #175c4a, #f0b35a)",
+      link: "https://docs.google.com/spreadsheets/d/14BBvYKyFjXjJLgFtOYqhcUbZshBd1s6TWT6J1OnjY8s/edit?usp=sharing"
     },
     {
-      title: "Research & Data Entry",
-      description: "Finding useful information, organizing data, preparing records, and turning scattered details into clear resources.",
-      image: "linear-gradient(135deg, #1f2937, #8fb9a8)"
+      title: "Meeting Agenda Preparation",
+      type: "Google Docs",
+      description: "A professional meeting agenda document, showing planning, administrative preparation, and the ability to turn meetings into clear action points.",
+      image: "linear-gradient(135deg, #1f2937, #8fb9a8)",
+      link: "https://docs.google.com/document/d/1OLvvNXhsI_5D6aYZnzfLU5JiztFWxxVY9E-0fCAOMLU/edit?usp=sharing"
     },
     {
-      title: "Customer Support",
-      description: "Responding with clarity, following up professionally, and helping every customer interaction feel cared for.",
-      image: "linear-gradient(135deg, #7c3f1d, #f2c078)"
+      title: "Travel Planning Pack",
+      type: "Google Slides",
+      description: "A travel planning presentation for Santorini, Greece, showing destination research, itinerary thinking, and polished presentation support.",
+      image: "linear-gradient(135deg, #7c3f1d, #f2c078)",
+      link: "https://docs.google.com/presentation/d/18NojBpBubLvgDyrfW-lMtVisOjf5g7vLPihV26juX5M/edit?usp=sharing"
+    },
+    {
+      title: "Virtual Assistant Certificate",
+      type: "Certificate",
+      description: "A professional certificate supporting Martha's Virtual Assistant training, readiness, and commitment to reliable remote support.",
+      image: "linear-gradient(135deg, #10352c, #d9823b)",
+      link: "https://drive.google.com/file/d/1FmgTimfOobWrwYmNChlKlQamprvfNHA5/view?usp=sharing"
     }
   ]
 };
@@ -110,9 +123,11 @@ function renderPortfolio() {
     .map((project) => `
       <article class="project-card">
         <div class="project-image" style="--image: ${project.image};"></div>
-        <div>
+        <div class="project-content">
+          <span class="project-type">${project.type}</span>
           <h3>${project.title}</h3>
           <p>${project.description}</p>
+          <a class="project-link" href="${project.link}" target="_blank" rel="noopener noreferrer">View sample</a>
         </div>
       </article>
     `)
