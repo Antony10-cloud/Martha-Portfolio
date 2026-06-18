@@ -13,8 +13,8 @@ const PORTFOLIO = {
   phoneDisplay: "+254 727 678245",
   phoneHref: "tel:+254727678245",
   whatsapp: "254727678245",
-  googleDriveUrl: "mailto:marthanyanchama60@gmail.com?subject=Request%20for%20professional%20documents",
-  driveText: "Martha can share her CV, certificates, and relevant professional documents on request.",
+  googleDriveUrl: "https://drive.google.com/",
+  driveText: "Martha's CV, certificates, and professional documents are available in her shared Google Drive folder.",
   stats: ["8", "Remote", "Flexible"],
   skills: [
     "Email Management",
