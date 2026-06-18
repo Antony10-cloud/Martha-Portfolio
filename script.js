@@ -13,7 +13,7 @@ const PORTFOLIO = {
   phoneDisplay: "+254 727 678245",
   phoneHref: "tel:+254727678245",
   whatsapp: "254727678245",
-  googleDriveUrl: "https://drive.google.com/",
+  googleDriveUrl: "https://l1nk.dev/2cm155j",
   driveText: "Martha's CV, certificates, and professional documents are available in her shared Google Drive folder.",
   stats: ["8", "Remote", "Flexible"],
   skills: [
@@ -26,7 +26,9 @@ const PORTFOLIO = {
     "Customer Support",
     "Confidential Support"
   ],
-  socials: [],
+  socials: [
+    { label: "LinkedIn", url: "https://acesse.one/lzplcbo" }
+  ],
   projects: [
     {
       title: "Administrative Support",
