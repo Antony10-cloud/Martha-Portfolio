@@ -13,9 +13,9 @@ const PORTFOLIO = {
   phoneDisplay: "+254 727 678245",
   phoneHref: "tel:+254727678245",
   whatsapp: "254727678245",
-  googleDriveUrl: "https://drive.google.com/",
-  driveText: "Certificates, CV, detailed project photos, and other supporting files can be shared through one Google Drive folder.",
-  stats: ["3", "6", "24h"],
+  googleDriveUrl: "mailto:marthanyanchama60@gmail.com?subject=Request%20for%20professional%20documents",
+  driveText: "Martha can share her CV, certificates, and relevant professional documents on request.",
+  stats: ["8", "Remote", "Flexible"],
   skills: [
     "Email Management",
     "Calendar Scheduling",
@@ -26,11 +26,7 @@ const PORTFOLIO = {
     "Customer Support",
     "Confidential Support"
   ],
-  socials: [
-    { label: "LinkedIn", url: "#" },
-    { label: "Instagram", url: "#" },
-    { label: "TikTok", url: "#" }
-  ],
+  socials: [],
   projects: [
     {
       title: "Administrative Support",
