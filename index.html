@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Martha's personal portfolio, work samples, documents, and contact links.">
+  <title>Martha | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Portfolio home">
+      <span id="brandInitial">M</span>
+      <strong id="brandName">Martha</strong>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow" id="eyebrow">Personal Portfolio</p>
+        <h1 id="heroTitle">A clean portfolio for my work, story, and next opportunity.</h1>
+        <p id="heroIntro">Explore selected work, documents, skills, and the easiest ways to get in touch.</p>
+        <div class="hero-actions">
+          <a class="button primary" id="primaryContact" href="#contact">Contact me</a>
+          <a class="button ghost" href="#work">View projects</a>
+        </div>
+      </div>
+      <aside class="profile-card">
+        <div class="avatar" id="avatar">M</div>
+        <p class="availability" id="availability">Open to selected opportunities</p>
+        <h2 id="profileName">Martha</h2>
+        <p id="profileRole">Personal Brand / Career Profile</p>
+        <div class="stats">
+          <span><b id="statOne">3</b><small>Focus Areas</small></span>
+          <span><b id="statTwo">6</b><small>Projects</small></span>
+          <span><b id="statThree">24h</b><small>Response</small></span>
+        </div>
+      </aside>
+    </section>
+
+    <section class="section intro-strip">
+      <p id="shortPitch">A simple, professional space where people can understand my work, view my supporting files, and contact me quickly.</p>
+    </section>
+
+    <section class="section" id="work">
+      <div class="section-heading">
+        <p class="eyebrow">Selected Work</p>
+        <h2>Project gallery</h2>
+        <p>Photos, screenshots, certificates, designs, or case studies can sit here. Each card can be updated when new work is ready.</p>
+      </div>
+      <div class="gallery" id="gallery"></div>
+    </section>
+
+    <section class="section split" id="about">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2 id="aboutTitle">A short introduction.</h2>
+      </div>
+      <div>
+        <p id="aboutText">I am building a professional profile that presents my background, strengths, work samples, and the opportunities I am ready for. This section will be updated with a personal bio once the final details are provided.</p>
+        <div class="skills" id="skills"></div>
+      </div>
+    </section>
+
+    <section class="section drive-card">
+      <div>
+        <p class="eyebrow">Google Drive</p>
+        <h2>Documents and extra files</h2>
+        <p id="driveText">Certificates, CV, detailed project photos, and other supporting files can be shared through one Google Drive folder.</p>
+      </div>
+      <a class="button primary" id="driveLink" href="#" target="_blank" rel="noopener noreferrer">Open Drive folder</a>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2>Let us talk.</h2>
+        <p id="contactText">For opportunities, collaborations, or enquiries, use the links below.</p>
+      </div>
+      <div class="contact-panel">
+        <a id="emailLink" href="#">Email</a>
+        <a id="phoneLink" href="#">Call</a>
+        <a id="whatsappLink" href="#" target="_blank" rel="noopener noreferrer">WhatsApp</a>
+        <div class="socials" id="socials"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p><span id="footerName">Martha</span> Portfolio</p>
+    <p>Built by AM Digital Studio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
