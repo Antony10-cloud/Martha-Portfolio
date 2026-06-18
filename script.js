@@ -14,7 +14,7 @@ const PORTFOLIO = {
   phoneHref: "tel:+254727678245",
   whatsapp: "254727678245",
   googleDriveUrl: "https://l1nk.dev/2cm155j",
-  driveText: "Martha's CV, certificates, and professional documents are available in her shared Google Drive folder.",
+  driveText: "Martha's work samples, CV, certificates, and professional documents are available in her shared Google Drive folder.",
   stats: ["8", "Remote", "Flexible"],
   skills: [
     "Email Management",
