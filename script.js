@@ -1,11 +1,11 @@
 const PORTFOLIO = {
   name: "Martha Nyanchama Nyangena",
-  title: "Virtual Assistant helping businesses stay organized and efficient.",
+  title: "Calm, capable virtual support for busy founders and growing teams.",
   role: "Virtual Assistant",
   eyebrow: "Virtual Assistant Portfolio",
-  intro: "Administrative support, scheduling, research, document preparation, and customer support for busy entrepreneurs and businesses.",
+  intro: "I help entrepreneurs and businesses bring order to busy days through admin support, scheduling, research, documents, data entry, travel planning, and customer care.",
   availability: "Open to selected opportunities",
-  shortPitch: "I help clients save time, streamline their workflows, and focus on what matters most: growing their business.",
+  shortPitch: "When the inbox is full, the calendar is moving, and the details need attention, I step in with structure, care, and follow-through.",
   aboutTitle: "Reliable virtual support for growing businesses.",
   aboutText: "I am Martha, a dedicated Virtual Assistant with strong organizational, communication, and administrative support skills. I help entrepreneurs and businesses stay organized by managing emails, calendars, scheduling, data entry, travel planning, internet research, document preparation, and customer support. I am detail-oriented, tech-savvy, and committed to delivering accurate, efficient, and confidential support.",
   contactText: "For administrative support, customer support, scheduling, research, or document preparation enquiries, use the links below.",
@@ -30,17 +30,17 @@ const PORTFOLIO = {
   projects: [
     {
       title: "Administrative Support",
-      description: "Email management, calendar coordination, scheduling, document preparation, and day-to-day business organization.",
+      description: "Keeping inboxes, calendars, schedules, documents, and daily admin work organized so every task has a clear place.",
       image: "linear-gradient(135deg, #175c4a, #f0b35a)"
     },
     {
       title: "Research & Data Entry",
-      description: "Internet research, data entry, information organization, and accurate task handling for busy professionals.",
+      description: "Finding useful information, organizing data, preparing records, and turning scattered details into clear resources.",
       image: "linear-gradient(135deg, #1f2937, #8fb9a8)"
     },
     {
       title: "Customer Support",
-      description: "Professional communication, customer follow-up, and reliable support that helps businesses serve clients better.",
+      description: "Responding with clarity, following up professionally, and helping every customer interaction feel cared for.",
       image: "linear-gradient(135deg, #7c3f1d, #f2c078)"
     }
   ]
