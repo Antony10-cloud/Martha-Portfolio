@@ -129,7 +129,15 @@ function renderPortfolio() {
       const icon = social.label.toLowerCase() === "linkedin"
         ? `<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.94 8.98H3.75v10.27h3.19V8.98ZM5.35 4.75a1.85 1.85 0 1 0 0 3.7 1.85 1.85 0 0 0 0-3.7Zm13.9 8.62c0-3.1-1.65-4.54-3.86-4.54a3.34 3.34 0 0 0-3.02 1.66h-.04V8.98H9.28v10.27h3.18v-5.08c0-1.34.25-2.64 1.91-2.64 1.64 0 1.66 1.53 1.66 2.73v4.99h3.18l.04-5.88Z"/></svg>`
         : "";
-      return `<a class="social-link" href="${social.url}" target="_blank" rel="noopener noreferrer" aria-label="${social.label} profile">${icon}${social.label}</a>`;
+      return `
+        <a class="profile-link" href="${social.url}" target="_blank" rel="noopener noreferrer" aria-label="View Martha's ${social.label} profile">
+          <span class="profile-link-icon">${icon}</span>
+          <span>
+            <small>Professional profile</small>
+            <strong>View ${social.label}</strong>
+          </span>
+        </a>
+      `;
     })
     .join("");
 
